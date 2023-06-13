@@ -46,9 +46,9 @@ fullScreenLoader?.setLoaderCancelable(true)
 fullScreenLoader?.setLoaderColor(getColor(R.color.yellow))
 ```
 
-### Suggestions & future improvements are welcome
-
 ### Set Loading message
 ```
 fullScreenLoader?.setLoadingMessage("Your loading message...")
 ```
+
+### Suggestions & future improvements are welcome
