@@ -12,7 +12,7 @@ So here is a simple, lightweight, easy-to-use library for showing a simple nativ
 ### Sample project
 See `sample` directory. Sample project is under construction.
 
-### Kotlin code
+### Loader initialization
 ```
 import dev.jithinjude.simpleloader.FullScreenLoader
 
