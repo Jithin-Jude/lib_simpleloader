@@ -37,9 +37,8 @@ class FullScreenLoading (context: Context) : Dialog(context) {
         window?.setBackgroundDrawable(inset)
     }
 
-    override fun setOnDismissListener(listener: DialogInterface.OnDismissListener?) {
-        super.setOnDismissListener(listener)
-
+    override fun onDetachedFromWindow() {
+        super.onDetachedFromWindow()
         mListener?.onFulScreenLoaderDismissed()
     }
 

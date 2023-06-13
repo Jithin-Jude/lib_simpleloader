@@ -3,6 +3,7 @@ package indie.jithinjude.dev
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import dev.jithinjude.simpleloader.FullScreenLoading
+import timber.log.Timber
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
         val callback = object: FullScreenLoading.FullScreenLoadingDismissListener{
             override fun onFulScreenLoaderDismissed() {
-
+                Timber.e("onFulScreenLoaderDismissed :=> callback worked")
             }
         }
 
