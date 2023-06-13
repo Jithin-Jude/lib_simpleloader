@@ -1,4 +1,5 @@
 # Simple Fullscreen loader
+[![HitCount](http://hits.dwyl.com/Jithin-Jude/lib_simpleloader.svg)](http://hits.dwyl.com/Jithin-Jude/lib_simpleloader)
 <a href="https://jitpack.io/#Jithin-Jude/lib_simpleloader"><img src="https://jitpack.io/v/Jithin-Jude/lib_simpleloader.svg"></a>
 <a href="LICENSE">
   <img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
