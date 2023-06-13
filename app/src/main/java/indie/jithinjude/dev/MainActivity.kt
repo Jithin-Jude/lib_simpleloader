@@ -6,16 +6,19 @@ import dev.jithinjude.simpleloader.FullScreenLoader
 import timber.log.Timber
 
 class MainActivity : AppCompatActivity() {
+
+    var fullScreenLoader: FullScreenLoader? = null
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val fullScreenLoader = FullScreenLoader(this)
+        fullScreenLoader = FullScreenLoader(this)
 
         val callback = object : FullScreenLoader.FullScreenLoaderListener {
             override fun onFullScreenLoaderInitialized() {
-                fullScreenLoader.setLoaderColor(getColor(R.color.happy_yellow))
-                fullScreenLoader.setLoadingMessage("Hey Loading ...")
+                fullScreenLoader?.setLoaderColor(getColor(R.color.happy_yellow))
+                fullScreenLoader?.setLoadingMessage("Hey Loading ...")
             }
 
             override fun onFullScreenLoaderDismissed() {
@@ -23,12 +26,12 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        fullScreenLoader.setLoaderCancelable(true)
-        fullScreenLoader.setFullScreenLoadingDismissListener(callback)
+        fullScreenLoader?.setLoaderCancelable(true)
+        fullScreenLoader?.setFullScreenLoadingDismissListener(callback)
 
-        fullScreenLoader.setLoaderColor(getColor(R.color.happy_yellow))
-        fullScreenLoader.setLoadingMessage("Calling API ...")
+        fullScreenLoader?.setLoaderColor(getColor(R.color.happy_yellow))
+        fullScreenLoader?.setLoadingMessage("Calling API ...")
 
-        fullScreenLoader.show()
+        fullScreenLoader?.show()
     }
 }
