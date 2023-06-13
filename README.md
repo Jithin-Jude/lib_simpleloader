@@ -1,4 +1,6 @@
 # Simple Fullscreen loader
+<a href="https://jitpack.io/#Jithin-Jude/lib_simpleloader"><img src="https://jitpack.io/v/Jithin-Jude/lib_simpleloader.svg"></a>
+
 For the past few years, I was using Lottie for showing both loading & other custom animations. Even tho Lottie is providing cooler animations, one major issue I was facing was that the Lottie files are not doing well in terms of performance.
 
 So here is a <b>simple, performance-oriented, lightweight, easy-to-use</b> library for showing loading screen while app is doing heavy background tasks & network calls.
