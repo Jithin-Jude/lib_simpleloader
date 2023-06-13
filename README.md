@@ -12,6 +12,22 @@ So here is a simple, lightweight, easy-to-use, performance-oriented, library for
 ### Sample project
 See `sample` directory. Sample project is under construction.
 
+### dependencies
+```
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+
+```
+dependencies {
+	implementation 'com.github.Jithin-Jude:lib_simpleloader:v1.0.0'
+}
+```
+
 ### Loader initialization
 ```
 import dev.jithinjude.simpleloader.FullScreenLoader
