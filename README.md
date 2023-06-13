@@ -30,12 +30,11 @@ dependencies {
 	implementation 'com.github.Jithin-Jude:lib_simpleloader:1.0.1'
 }
 ```
-
-### Loader initialization
 ```
 import dev.jithinjude.simpleloader.FullScreenLoader
 ```
 
+### Loader initialization
 ```
 var fullScreenLoader: FullScreenLoader? = null
 fullScreenLoader = FullScreenLoader(context)
@@ -73,4 +72,4 @@ fullScreenLoader?.setLoaderColor(getColor(R.color.yellow))
 fullScreenLoader?.setLoadingMessage("Your loading message...")
 ```
 
-### Suggestions & future improvements are welcome
+### Suggestions for improvements are welcome
