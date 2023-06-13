@@ -60,7 +60,8 @@ class FullScreenLoader(context: Context) : Dialog(context) {
 
     /**
      * Call setLoadingMessage either after FullScreenLoader(context) or
-     * inside FullScreenLoaderListener.FullScreenLoaderListener.onFullScreenLoaderInitialized() callback.
+     * inside FullScreenLoaderListener.FullScreenLoaderListener.onFullScreenLoaderInitialized()
+     * callback.
      */
     fun setLoadingMessage(message: String?) {
         try {
