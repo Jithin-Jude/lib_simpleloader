@@ -12,7 +12,7 @@ So here is a simple, lightweight, easy-to-use, performance-oriented, library for
 ### Sample project
 See `sample` directory. Sample project is under construction.
 
-### dependencies
+### Dependencies
 ```
 allprojects {
 	repositories {
