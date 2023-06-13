@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="loader_color">#0079FF</color>
+    <color name="loader_text_color">#FFFFFF</color>
+    <color name="loading_screen_bg">#90000000</color>
+    <color name="black">#000000</color>
+</resources>
