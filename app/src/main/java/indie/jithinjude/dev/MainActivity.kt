@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         val callback = object : FullScreenLoader.FullScreenLoaderListener {
             override fun onFullScreenLoaderInitialized() {
                 fullScreenLoader?.setLoaderColor(getColor(R.color.happy_yellow))
-                fullScreenLoader?.setLoadingMessage("Hey Loading ...")
+                fullScreenLoader?.setLoadingMessage("Loading message...")
             }
 
             override fun onFullScreenLoaderDismissed() {
@@ -28,10 +28,6 @@ class MainActivity : AppCompatActivity() {
 
         fullScreenLoader?.setLoaderCancelable(true)
         fullScreenLoader?.setFullScreenLoadingDismissListener(callback)
-
-        fullScreenLoader?.setLoaderColor(getColor(R.color.happy_yellow))
-        fullScreenLoader?.setLoadingMessage("Calling API ...")
-
         fullScreenLoader?.show()
     }
 }
