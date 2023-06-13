@@ -46,7 +46,8 @@ class FullScreenLoader(context: Context) : Dialog(context) {
 
     /**
      * Call setLoaderColor either after FullScreenLoader(context) or
-     * inside FullScreenLoaderListener.FullScreenLoaderListener.onFullScreenLoaderInitialized() callback.
+     * inside FullScreenLoaderListener.FullScreenLoaderListener.onFullScreenLoaderInitialized()
+     * callback.
      */
     fun setLoaderColor(@NonNull @ColorInt color: Int) {
         try {
