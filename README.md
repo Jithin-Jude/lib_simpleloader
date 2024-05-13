@@ -32,7 +32,7 @@ allprojects {
 add inside `build.gradle` [app level]
 ```
 dependencies {
-	implementation 'com.github.Jithin-Jude:lib_simpleloader:1.0.1'
+	implementation 'com.github.Jithin-Jude:lib_simpleloader:1.0.2'
 }
 ```
 ```
